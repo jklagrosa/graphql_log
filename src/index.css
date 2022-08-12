@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.countries-box{
+  background-color: black;
+  color: white;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}

@@ -1,16 +1,14 @@
-import "./App.css";
-import CharacterList from "./pages/CharacterList";
+// import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import CharacterId from "./pages/CharacterId";
-import Search from "./pages/Search";
+import Home from "./components/Home";
+import Search from "./components/Search";
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<CharacterList />} />
+        <Route path="/" element={<Home />} />
         <Route path="/search" element={<Search />} />
-        <Route path="/:id" element={<CharacterId />} />
       </Routes>
     </div>
   );
